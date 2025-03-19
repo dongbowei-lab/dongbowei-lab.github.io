@@ -2,120 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dongbowei-lab.github.io/research/chapter-6/</loc>
+    <loc>http://localhost:1313/research/chapter-6/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://dongbowei-lab.github.io/fr/"
+                href="http://localhost:1313/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dongbowei-lab.github.io/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://dongbowei-lab.github.io/research/</loc>
+    <loc>http://localhost:1313/research/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/research/chapter-5/</loc>
+    <loc>http://localhost:1313/research/chapter-5/</loc>
     <lastmod>2017-04-13T11:15:58-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/research/chapter-4/</loc>
+    <loc>http://localhost:1313/research/chapter-4/</loc>
     <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/tags/scene/</loc>
+    <loc>http://localhost:1313/tags/scene/</loc>
     <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://dongbowei-lab.github.io/fr/tags/scene/"
+                href="http://localhost:1313/fr/tags/scene/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dongbowei-lab.github.io/tags/scene/"
+                href="http://localhost:1313/tags/scene/"
                 />
   </url><url>
-    <loc>https://dongbowei-lab.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://dongbowei-lab.github.io/fr/tags/"
+                href="http://localhost:1313/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dongbowei-lab.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>https://dongbowei-lab.github.io/research/chapter-3/</loc>
+    <loc>http://localhost:1313/research/chapter-3/</loc>
     <lastmod>2017-04-11T11:13:32-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/research/chapter-2/</loc>
+    <loc>http://localhost:1313/research/chapter-2/</loc>
     <lastmod>2017-04-10T11:00:59-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/research/chapter-1/</loc>
+    <loc>http://localhost:1313/research/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://dongbowei-lab.github.io/fr/categories/"
+                href="http://localhost:1313/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dongbowei-lab.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://dongbowei-lab.github.io/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>http://localhost:1313/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://dongbowei-lab.github.io/fr/contact/"
+                href="http://localhost:1313/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dongbowei-lab.github.io/contact/"
+                href="http://localhost:1313/contact/"
                 />
   </url><url>
-    <loc>https://dongbowei-lab.github.io/people/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>http://localhost:1313/people/</loc>
   </url><url>
-    <loc>https://dongbowei-lab.github.io/publication/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>http://localhost:1313/publication/</loc>
   </url>
 </urlset>
