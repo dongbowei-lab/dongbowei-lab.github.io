@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Dong Bowei Lab</title>
-    <link>https://dongbowei-lab.github.io/news/</link>
+    <link>http://localhost:54210/news/</link>
     <description>Recent content in News on Dong Bowei Lab</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 14 Apr 2017 11:25:05 -0400</lastBuildDate>
-    <atom:link href="https://dongbowei-lab.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54210/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computing at the speed of light</title>
-      <link>https://dongbowei-lab.github.io/news/chapter-6/</link>
+      <link>http://localhost:54210/news/chapter-6/</link>
       <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      <guid>https://dongbowei-lab.github.io/news/chapter-6/</guid>
+      <guid>http://localhost:54210/news/chapter-6/</guid>
       <description>&lt;p&gt;The human brain is often compared to a computer. Using electrical impulses, it receives inputs from the external world, integrates this information in a split second, and plans and executes responses. The brain’s immense information processing capabilities have also inspired the design of high power computing architectures and driven the development of artificial intelligence (AI) and machine learning systems.&lt;/p&gt;&#xA;&lt;p&gt;For decades, devices like transistors and semiconductors that operate using the humble electron have dominated the computing world. However, as researchers begin to hit physical limits in how much processing power they can fit into an electronic chip, some are exploring new ways of building chips to overcome those limitations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bowei is awarded the National Research Foundation (NRF) Fellowship (Class of 2025)</title>
-      <link>https://dongbowei-lab.github.io/news/chapter-5/</link>
+      <link>http://localhost:54210/news/chapter-5/</link>
       <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
-      <guid>https://dongbowei-lab.github.io/news/chapter-5/</guid>
+      <guid>http://localhost:54210/news/chapter-5/</guid>
       <description>&lt;p&gt;Congratulations!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chapter IV: Master Jacques Coppenole</title>
-      <link>https://dongbowei-lab.github.io/news/chapter-4/</link>
+      <link>http://localhost:54210/news/chapter-4/</link>
       <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
-      <guid>https://dongbowei-lab.github.io/news/chapter-4/</guid>
+      <guid>http://localhost:54210/news/chapter-4/</guid>
       <description>&lt;p&gt;While the pensioner of Ghent and his eminence were exchanging very low&#xA;bows and a few words in voices still lower, a man of lofty stature, with a&#xA;large face and broad shoulders, presented himself, in order to enter&#xA;abreast with Guillaume Rym; one would have pronounced him a bull-dog by&#xA;the side of a fox. His felt doublet and leather jerkin made a spot on the&#xA;velvet and silk which surrounded him. Presuming that he was some groom who&#xA;had stolen in, the usher stopped him.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chapter III: Monsieur the Cardinal</title>
-      <link>https://dongbowei-lab.github.io/news/chapter-3/</link>
+      <link>http://localhost:54210/news/chapter-3/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      <guid>https://dongbowei-lab.github.io/news/chapter-3/</guid>
+      <guid>http://localhost:54210/news/chapter-3/</guid>
       <description>&lt;p&gt;Poor Gringoire! the din of all the great double petards of the Saint-Jean,&#xA;the discharge of twenty arquebuses on supports, the detonation of that&#xA;famous serpentine of the Tower of Billy, which, during the siege of Paris,&#xA;on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians&#xA;at one blow, the explosion of all the powder stored at the gate of the&#xA;Temple, would have rent his ears less rudely at that solemn and dramatic&#xA;moment, than these few words, which fell from the lips of the usher, “His&#xA;eminence, Monseigneur the Cardinal de Bourbon.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chapter II: Pierre Gringoire</title>
-      <link>https://dongbowei-lab.github.io/news/chapter-2/</link>
+      <link>http://localhost:54210/news/chapter-2/</link>
       <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
-      <guid>https://dongbowei-lab.github.io/news/chapter-2/</guid>
+      <guid>http://localhost:54210/news/chapter-2/</guid>
       <description>&lt;p&gt;Nevertheless, as be harangued them, the satisfaction and admiration&#xA;unanimously excited by his costume were dissipated by his words; and when&#xA;he reached that untoward conclusion: “As soon as his illustrious eminence,&#xA;the cardinal, arrives, we will begin,” his voice was drowned in a thunder&#xA;of hooting.&lt;/p&gt;&#xA;&lt;p&gt;“Begin instantly! The mystery! the mystery immediately!” shrieked the&#xA;people. And above all the voices, that of Johannes de Molendino was&#xA;audible, piercing the uproar like the fife’s derisive serenade: “Commence&#xA;instantly!” yelped the scholar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Computing at the speed of light</title>
-      <link>https://dongbowei-lab.github.io/news/chapter-1/</link>
+      <link>http://localhost:54210/news/chapter-1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      <guid>https://dongbowei-lab.github.io/news/chapter-1/</guid>
+      <guid>http://localhost:54210/news/chapter-1/</guid>
       <description>&lt;p&gt;The human brain is often compared to a computer. Using electrical impulses, it receives inputs from the external world, integrates this information in a split second, and plans and executes responses. The brain’s immense information processing capabilities have also inspired the design of high power computing architectures and driven the development of artificial intelligence (AI) and machine learning systems.&lt;/p&gt;&#xA;&lt;p&gt;For decades, devices like transistors and semiconductors that operate using the humble electron have dominated the computing world. However, as researchers begin to hit physical limits in how much processing power they can fit into an electronic chip, some are exploring new ways of building chips to overcome those limitations.&lt;/p&gt;</description>
     </item>
   </channel>
