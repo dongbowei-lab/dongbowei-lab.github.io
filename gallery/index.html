@@ -9,24 +9,34 @@
     <title>Gallery | Photonic Application Lab (PAL)</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="
-    
       
+      
+        
+        
+          Celebrate the birth of Bowei&#39;s Nature! 
         
       
       
         
-      
-      
+        
+          Nature 
         
       
       
+        
+        
+           Nature Photonics 
+        
+      
+      
+        
+        
+           Celebrate the birth of Bowei&#39;s Nature! 
         
       
   
   &#10094;
   &#10095;
-
-
 
 
 ">
@@ -39,7 +49,7 @@
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.984dbfa79e7480b81a68e2ac18f84fbcbdeca72ec3e89a6554848bcbc2ae6f4a.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.2cbb645a34388cc67ccf3247a8cf4776fc85ebbf6f04e65216ca4fb0ac69efd1.css" >
 
 
 
@@ -62,17 +72,29 @@
     <meta property="og:url" content="https://dongbowei-lab.github.io/gallery/">
   <meta property="og:site_name" content="Photonic Application Lab (PAL)">
   <meta property="og:title" content="Gallery">
-  <meta property="og:description" content="❮ ❯">
+  <meta property="og:description" content="Celebrate the birth of Bowei&#39;s Nature!
+Nature
+Nature Photonics
+Celebrate the birth of Bowei&#39;s Nature!
+❮ ❯">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="page">
 
   <meta itemprop="name" content="Gallery">
-  <meta itemprop="description" content="❮ ❯">
-  <meta itemprop="wordCount" content="2">
+  <meta itemprop="description" content="Celebrate the birth of Bowei&#39;s Nature!
+Nature
+Nature Photonics
+Celebrate the birth of Bowei&#39;s Nature!
+❮ ❯">
+  <meta itemprop="wordCount" content="17">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Gallery">
-  <meta name="twitter:description" content="❮ ❯">
+  <meta name="twitter:description" content="Celebrate the birth of Bowei&#39;s Nature!
+Nature
+Nature Photonics
+Celebrate the birth of Bowei&#39;s Nature!
+❮ ❯">
 
       
     
@@ -166,63 +188,43 @@
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
         <div class="carousel-container">
-  <div class="carousel-slides">  
+  <div class="carousel-slides">    
       <div class="carousel-slide">
-        <img src="/images/haidilao.jpeg" alt="Slide">
+        <img src="/images/haidilao.jpeg" alt="Slide 0">
+        <div class="carousel-description">
+          <p>Celebrate the birth of Bowei&#39;s Nature!</p> 
+        </div>
       </div>
       <div class="carousel-slide">
-        <img src="/images/nature.PNG" alt="Slide">
+        <img src="/images/nature.PNG" alt="Slide 1">
+        <div class="carousel-description">
+          <p>Nature</p> 
+        </div>
       </div>
       <div class="carousel-slide">
-        <img src="/images/compute-speed-of-light.jpg" alt="Slide">
+        <img src="/images/compute-speed-of-light.jpg" alt="Slide 2">
+        <div class="carousel-description">
+          <p> Nature Photonics</p> 
+        </div>
       </div>
       <div class="carousel-slide">
-        <img src="/images/haidilao.jpeg" alt="Slide">
+        <img src="/images/haidilao.jpeg" alt="Slide 3">
+        <div class="carousel-description">
+          <p> Celebrate the birth of Bowei&#39;s Nature!</p> 
+        </div>
       </div>
   </div>
   <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
   <button class="next" onclick="moveSlide(1)">&#10095;</button>
 </div>
 
-<style>
-  .carousel-container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    overflow: hidden;
-  }
-  .carousel-slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  .carousel-slide {
-    min-width: 100%;
-  }
-  img {
-    width: 100%;
-    display: block;
-  }
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-  }
-  .prev { left: 10px; }
-  .next { right: 10px; }
-</style>
-
 <script>
   let currentIndex = 0;
   let autoPlay = true;
-  let interval;
+  let interval; 
   const slides = document.querySelector('.carousel-slides');
   const totalSlides = document.querySelectorAll('.carousel-slide').length;
-  
+
   function moveSlide(step) {
     currentIndex = (currentIndex + step + totalSlides) % totalSlides;
     updateSlide();
@@ -232,7 +234,7 @@
   function updateSlide() {
     slides.style.transform = `translateX(-${currentIndex * 100}%)`;
   }
-  
+
   function autoSlide() {
     if (autoPlay) {
       moveSlide(1);
@@ -240,20 +242,24 @@
   }
 
   function startAutoPlay() {
-    interval = setInterval(autoSlide, 3000);
+    
+    if (interval) {
+      clearInterval(interval);
+    }
+    interval = setInterval(autoSlide, 3000); 
   }
 
   function stopAutoPlay() {
-    clearInterval(interval);
+    clearInterval(interval); 
   }
 
   function resetAutoPlay() {
-    stopAutoPlay();
-    startAutoPlay();
+    stopAutoPlay(); 
+    startAutoPlay(); 
   }
 
   startAutoPlay(); 
-  
+
   document.querySelector('.carousel-container').addEventListener('mouseenter', () => {
     autoPlay = false;
     stopAutoPlay(); 
