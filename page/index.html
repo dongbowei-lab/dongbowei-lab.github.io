@@ -18,7 +18,7 @@
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.702002b312fe21a8ffdbbc460915eeb7fdb7e6f36612c39f69b384425493f57b.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.984dbfa79e7480b81a68e2ac18f84fbcbdeca72ec3e89a6554848bcbc2ae6f4a.css" >
 
 
 
@@ -103,14 +103,14 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/gallery/" title="Gallery page">
-              Gallery
+            <a class="hover-white no-underline white-90" href="/grant/" title="Grant page">
+              Grant
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/grant/" title="Grant page">
-              Grant
+            <a class="hover-white no-underline white-90" href="/gallery/" title="Gallery page">
+              Gallery
             </a>
           </li>
           
@@ -179,7 +179,105 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      
+      <div class="carousel-container">
+  <div class="carousel-slides">  
+      <div class="carousel-slide">
+        <img src="/images/haidilao.jpeg" alt="Slide">
+      </div>
+      <div class="carousel-slide">
+        <img src="/images/nature.PNG" alt="Slide">
+      </div>
+      <div class="carousel-slide">
+        <img src="/images/compute-speed-of-light.jpg" alt="Slide">
+      </div>
+      <div class="carousel-slide">
+        <img src="/images/haidilao.jpeg" alt="Slide">
+      </div>
+  </div>
+  <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<style>
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+  }
+  .carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .carousel-slide {
+    min-width: 100%;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .prev { left: 10px; }
+  .next { right: 10px; }
+</style>
+
+<script>
+  let currentIndex = 0;
+  let autoPlay = true;
+  let interval;
+  const slides = document.querySelector('.carousel-slides');
+  const totalSlides = document.querySelectorAll('.carousel-slide').length;
+  
+  function moveSlide(step) {
+    currentIndex = (currentIndex + step + totalSlides) % totalSlides;
+    updateSlide();
+    resetAutoPlay(); 
+  }
+
+  function updateSlide() {
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+  
+  function autoSlide() {
+    if (autoPlay) {
+      moveSlide(1);
+    }
+  }
+
+  function startAutoPlay() {
+    interval = setInterval(autoSlide, 3000);
+  }
+
+  function stopAutoPlay() {
+    clearInterval(interval);
+  }
+
+  function resetAutoPlay() {
+    stopAutoPlay();
+    startAutoPlay();
+  }
+
+  startAutoPlay(); 
+  
+  document.querySelector('.carousel-container').addEventListener('mouseenter', () => {
+    autoPlay = false;
+    stopAutoPlay(); 
+  });
+
+  document.querySelector('.carousel-container').addEventListener('mouseleave', () => {
+    autoPlay = true;
+    startAutoPlay(); 
+  });
+</script>
     </div>
     <a href="/gallery/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
